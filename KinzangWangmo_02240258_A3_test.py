@@ -5,7 +5,7 @@ class TestBankingApp(unittest.TestCase):
 
     def setUp(self):
         self.acc1 = BankAccount("Kinzang", 1000)
-        self.acc2 = BankAccount("Tshering", 500)
+        self.acc2 = BankAccount("Tandin", 500)
 
     # 1. Unusual user input
     def test_negative_deposit(self):
